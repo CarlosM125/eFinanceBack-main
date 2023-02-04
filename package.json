@@ -1,0 +1,31 @@
+{
+  "name": "efinancedemobackend",
+  "version": "1.0.0",
+  "description": "NodeJS based backen for finance calculation appgit add README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "Pablo Pérez Martínez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "mongoose-unique-validator": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icesasoftcorp/eFinanceBack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icesasoftcorp/eFinanceBack/issues"
+  },
+  "homepage": "https://github.com/icesasoftcorp/eFinanceBack#readme"
+}
